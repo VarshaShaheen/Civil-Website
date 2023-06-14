@@ -344,7 +344,7 @@ header {
     display: inline-block; }
 
 .section {
-  padding: 7em 0; }
+  padding: 4em; }
 
 .cta-link {
   background: #007bff;
@@ -601,12 +601,34 @@ header {
 .border-t {
   border-top: 1px solid #f8f9fa; }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
 .copyright {
   font-size: 14px; }
 
 .element-animate {
   opacity: 0;
   visibility: hidden; }
+
+.img-gallery{
+  margin: 2rem;
+  object-fit: fill;
+  width: 300px;
+  height: 245px;
+}
 
 #loader {
   position: fixed;
