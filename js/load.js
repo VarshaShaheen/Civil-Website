@@ -12,7 +12,7 @@ function getRow(...columns)
     return row;
 }
 
-Papa.parse("/data/mp.csv", {
+Papa.parse("data/mp.csv", {
     download: true,
     complete: function(results) {
         for(const row of results.data)
